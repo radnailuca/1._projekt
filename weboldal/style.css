@@ -1,0 +1,111 @@
+body{
+    position: relative;
+    background-color: rgb(195, 215, 233);
+}
+
+ul{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    list-style-type:none;
+    padding: 0px; 
+    
+}
+
+li {
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+a{
+    color:aliceblue
+}
+
+hr{
+    position: absolute;
+    width: 100%;
+    top: 160px;
+    left: 0px;
+}
+
+h1{
+   position: absolute;
+   top: 190px;
+   left: 500px;
+}
+
+h2{
+    position: absolute;
+    top: 290px;
+    left: 200px; 
+    font-size: 28px;
+}
+
+.b{
+    position: absolute;
+   top: -5px;
+   left: 655px;
+   text-align: center;
+   font-size: 32px;
+}
+
+.yuriy{
+    position: absolute;
+    top: 370px;
+    left: 210px;
+    z-index: 10;
+    place-items: center;
+    background-color: rgb(219, 227, 233);
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.szergej{
+    position: absolute;
+    top: 370px;
+    left: 540px;
+    z-index: 10;
+    place-items: center;
+    background-color: rgb(219, 227, 233);
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.vadim{
+    position: absolute;
+    top: 370px;
+    left: 860px;
+    z-index: 10;
+    place-items: center;
+    background-color: rgb(219, 227, 233);
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+img{
+    height: 90px;
+    border: 2px solid #0c0f13;
+    border-radius: 12px;
+}
+
+.szoveg{
+    position: absolute;
+    text-align: center;
+    top: 75px;
+    left: 150px; 
+}
+
+.menu {
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    background-color: #18374d;
+    border: 2px solid #0c0f13;
+    padding-top: 50px;
+}
+
